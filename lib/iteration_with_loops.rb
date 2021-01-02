@@ -10,7 +10,7 @@ while count < array_of_arrays.length do
 
   inner_count = 0
   while inner_count < array_of_arrays[count].length do
-if array_of_arrays[count][inner_count] % 2
+if array_of_arrays[count][inner_count] / 2
   p array_of_arrays[count][inner_count]
   inner_count += 1
   end
