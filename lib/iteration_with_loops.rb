@@ -1,6 +1,6 @@
 def find_even_values(src)
-index = 0
-while count < src.length do
+row_index = 0
+while row_index < src.length do
 
   element = 0
   while inner_count < array_of_arrays[count].length do
